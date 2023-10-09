@@ -7,8 +7,8 @@ export default function Home() {
       Hello World 
     </h1>
     <p>
-     Greedings Everyone,      My Name is Muhammad I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
-     I have also YouTube Channel name as "MianMuhammadBodla"
+     Greedings Everyone My Name is Muhammad I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
+     I have also YouTube Channel name as MianMuhammadBodla
      I am also learning TypeScript and Nextjs from PIAIC
     </p>
     <Button />
