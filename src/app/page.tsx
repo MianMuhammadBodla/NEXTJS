@@ -12,7 +12,7 @@ export default function Home() {
      I am also learning TypeScript and Nextjs from PIAIC
     </p>
     <Button />
-        <div>Subscribe  <Button />
+        <div>Subscribe<Button />
         </div>
       
     </main>
