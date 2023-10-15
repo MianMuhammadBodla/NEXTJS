@@ -25,7 +25,9 @@ export default function RootLayout({
         <div>contectus</div>
         </header>
         {children}
-        <footer ></footer>
+        <footer className="bg-gray-500 flex justify-center py-5">
+<p>&copy; 2023 - All rights reserved.</p>
+</footer>
         </body> 
     </html>
   )
