@@ -14,7 +14,7 @@ export default function Home() {
     <Button />
         <div>Subscribe<Button />
         </div>
-      
+
     </main>
   );
 }
