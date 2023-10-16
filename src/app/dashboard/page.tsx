@@ -1,5 +1,5 @@
 const Dashboard=()=>{
-    return <div>This is Dashboard Route </div>
+    return <div>This is dashboard Route </div>
 }
 
 export default Dashboard;

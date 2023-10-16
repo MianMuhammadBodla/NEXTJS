@@ -1,5 +1,5 @@
 const contectus=()=>{
-    return <div>This is Dashboard Route </div>
+    return <div>This is contectus Route </div>
 }
 
 export default contectus;

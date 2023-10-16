@@ -1,5 +1,5 @@
 const blog=()=>{
-    return <div>This is Dashboard Route </div>
+    return <div>This is blog Route </div>
 }
 
 export default blog;
