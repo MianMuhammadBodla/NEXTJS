@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-gray-700 px-5 py-5 flex gap-5">
+        <header className="bg-green-700 px-5 py-5 flex gap-5">
         < Link href="/">Home</Link>
         <Link  href="/dashboard">Dashboard</Link >
         <Link  href="/dashboard/setting">setting</Link >
