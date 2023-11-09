@@ -1,11 +1,13 @@
 import Button from "@/components/Buttons"
-
+import Image from "next/image";
+import profile from '../../public/IMG.jpg'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
     <h1 className="font-bold text-6xl text-red-700">
       Welcome Dear
     </h1>
+    <Image src={profile} width={200} height={300} alt={""} ></Image>
     <p className="font-serif text-1xl text-green-300">
 
     Greedings My Name is Muhammad
