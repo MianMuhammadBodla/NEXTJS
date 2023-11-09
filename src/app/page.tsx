@@ -4,6 +4,7 @@ import profile from '../../public/IMG.jpg'
 import jbc from '../../public/im.jpg'
 import fds from '../../public/fdss.jpg'
 import sadd from '../../public/sad.jpg'
+import vlogg from '../../public/vlog.jpg'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
@@ -19,14 +20,14 @@ export default function Home() {
     <p className="font-serif text-1xl text-blue-300">
     My College id is 244401711
     </p>
-    <p>
+    <p className="font-serif text-1xl text-gray-400">
     
     I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
     </p>
     <Image src={sadd} width={300} height={200} alt={""}></Image>
     
 
-    <h2 className="font-bold text-6xl text-green-700">
+    <h2 className="font-serif text-6xl text-green-700">
       Extra Activities
     </h2>
     <p className="font-bold text-2xl text-yellow-400">
@@ -37,10 +38,11 @@ export default function Home() {
       Speaker of Formanites Debating Society 
       </p>
       <Image src={fds} width={300} height={200} alt={""}></Image>
-      <p>
+      <p className="font-sans text-2xl text-red-200">
     I have also YouTube Channel name as Mian Muhammad Bodla 
      I am learning TypeScript, Python and Nextjs from PIAIC
     </p>
+    <Image src={vlogg} width={300} height={150} alt={""} ></Image>
     <Button />
         <div>Vist My All Accounts<Button />
         </div>
