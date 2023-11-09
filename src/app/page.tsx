@@ -44,7 +44,7 @@ export default function Home() {
     </p>
     <Image src={vlogg} width={300} height={150} alt={""} ></Image>
     <Button />
-        <div>Vist My All Accounts<Button />
+        <div>Visit My All Accounts<Button />
         </div>
 
     </main>
