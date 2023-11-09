@@ -17,15 +17,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-gray-700 px-5 py-5 flex gap-5">
+        <header className="bg-gray-700 px-2 py-3 flex gap-5">
         < Link href="/">Home</Link>
         <Link  href="/dashboard">Dashboard</Link >
+        <Link  href="/dashboard/analytics">analytics</Link >
         <Link  href="/dashboard/setting">setting</Link >
+        <Link  href="/dashboard/setting/password">password</Link >
         <Link  href="/blog">blog </Link >
         <Link href="/contectus">contectus</Link>
+        <Link href="/services">services</Link>
+        <Link href="/aboutus">aboutus</Link>
         </header>
         {children}
-        <footer className="bg-gray-500 flex justify-center py-5">
+        <footer className="bg-gray-500 flex justify-center py-3">
 <p>&copy; 2023 - All rights reserved.</p>
 </footer>
         </body> 

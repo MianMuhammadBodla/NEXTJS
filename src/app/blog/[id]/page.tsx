@@ -1,5 +1,3 @@
-const blog=() =>{
-return <div>latest blog</div>
-
+export default function Page({ params }: { params: { id: string } }) {
+    return <div>My Post: {params.id}</div>;
 }
-export default blog;
