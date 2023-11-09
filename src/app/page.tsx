@@ -4,11 +4,14 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
     <h1 className="font-bold text-6xl text-red-700">
-      Hello World
+      Welcome Dear
     </h1>
     <p className="font-serif text-1xl text-green-300">
 
-    Greedings Everyone My Name is Muhammad
+    Greedings My Name is Muhammad
+    </p>
+    <p className="font-serif text-1xl text-blue-300">
+    My College id is 244401711
     </p>
     <p>
     
@@ -25,7 +28,7 @@ export default function Home() {
       </p>
       <p>
     I have also YouTube Channel name as Mian Muhammad Bodla 
-     I am also learning TypeScript and Nextjs from PIAIC
+     I am learning TypeScript, Python and Nextjs from PIAIC
     </p>
     <Button />
         <div>Vist My All Accounts<Button />
