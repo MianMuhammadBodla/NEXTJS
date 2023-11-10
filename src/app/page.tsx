@@ -16,7 +16,15 @@ export default function Home() {
 
     Greedings My Name is Muhammad
     </p>
-    <Image src={profile} width={300} height={150} alt={""} ></Image>
+    <Image
+  src={profile}
+  width={300}
+  height={150}
+  alt={""}
+  className="border-4 border-green-500 rounded-full"
+></Image>
+
+
     <p className="font-serif text-1xl text-blue-300">
     My College id is 244401711
     </p>
@@ -24,7 +32,7 @@ export default function Home() {
     
     I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
     </p>
-    <Image src={sadd} width={300} height={200} alt={""}></Image>
+    <Image src={sadd} width={300} height={200} alt={""} className="border-4 border-blue-500 rounded-3xl "></Image>
     
 
     <h2 className="font-serif text-6xl text-green-700">
@@ -33,16 +41,16 @@ export default function Home() {
     <p className="font-bold text-2xl text-yellow-400">
       President of Junior Biological Club in FCCU
       </p>
-      <Image src={jbc} width={300} height={200} alt={""}></Image>
+      <Image src={jbc} width={300} height={200} alt={""} className="border-4 border-yellow-400 rounded-md"></Image>
       <p className="font-bold text-2xl text-red-400">
       Speaker of Formanites Debating Society 
       </p>
-      <Image src={fds} width={300} height={200} alt={""}></Image>
+      <Image src={fds} width={300} height={200} alt={""} className="border-4 border-red-300 rounded-2xl"></Image>
       <p className="font-sans text-2xl text-red-200">
     I have also YouTube Channel name as Mian Muhammad Bodla 
      I am learning TypeScript, Python and Nextjs from PIAIC
     </p>
-    <Image src={vlogg} width={300} height={150} alt={""} ></Image>
+    <Image src={vlogg} width={300} height={150} alt={""} className="border-4 border-emerald-400 rounded-3xl" ></Image>
     <Button />
         <div>Visit My All Accounts<Button />
         </div>
