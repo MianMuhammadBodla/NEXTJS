@@ -1,5 +1,12 @@
-const setting=()=>{
-    return <div className="font-bold text-4xl bg-red-400 text-yellow-100">This is setting Route </div>
-}
 
-export default setting;
+export default function setting () {return( <main>
+    
+    <h1 className="font-bold text-6xl text-red-500">Setting</h1>
+    <p>passoword chayay</p>
+
+</main>
+
+
+
+
+)}

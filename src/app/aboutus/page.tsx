@@ -1,10 +1,12 @@
-import Button from "@/components/Buttons"
+import Buttonn from "@/components/Buttonnn";
+import Button from "@/components/Buttons";
 import Image from "next/image";
 import profile from '../../../public/IMG.jpg'
 import jbc from '../../../public/im.jpg'
 import fds from '../../../public/fdss.jpg'
 import sadd from '../../../public/sad.jpg'
 import vlogg from '../../../public/vlog.jpg'
+import Link from "next/link";
 export default function aboutus () {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
@@ -34,8 +36,12 @@ export default function aboutus () {
     </p>
     <Image src={sadd} width={300} height={200} alt={""} className="border-4 border-blue-500 rounded-3xl "></Image>
     
+    <div >
+      <Buttonn href="https://instagram.com/mian.muhammadbodla?igshid=MXVidnAwMnQ1dXhtZw==">Instagram Page </Buttonn>
+    </div>
 
     <h2 className="font-serif text-6xl text-green-700">
+
       Extra Activities
     </h2>
     <p className="font-bold text-2xl text-yellow-400">
@@ -51,10 +57,11 @@ export default function aboutus () {
      I am learning TypeScript, Python and Nextjs from PIAIC
     </p>
     <Image src={vlogg} width={300} height={150} alt={""} className="border-4 border-emerald-400 rounded-3xl" ></Image>
-    <Button />
-        <div className=" text-yellow-200">Visit My All Accounts<Button />
-        </div>
-
+    <div>
+      <Button href="https://www.youtube.com/@mianmuhammadbodla">YouTube Channel</Button>
+    </div>
+    
+    
     </main>
   );
 }

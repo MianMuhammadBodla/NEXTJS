@@ -1,4 +1,5 @@
 import Button from "@/components/Buttons"
+import Buttonn from "@/components/Buttonnn"
 import Image from "next/image";
 import profile from '../../public/IMG.jpg'
 import jbc from '../../public/im.jpg'
@@ -34,7 +35,9 @@ export default function Home() {
     </p>
     <Image src={sadd} width={300} height={200} alt={""} className="border-4 border-blue-500 rounded-3xl "></Image>
     
-
+    <div >
+      <Buttonn href="https://instagram.com/mian.muhammadbodla?igshid=MXVidnAwMnQ1dXhtZw==">Instagram Page </Buttonn>
+    </div>
     <h2 className="font-serif text-6xl text-green-700">
       Extra Activities
     </h2>
@@ -48,13 +51,12 @@ export default function Home() {
       <Image src={fds} width={300} height={200} alt={""} className="border-4 border-red-300 rounded-2xl"></Image>
       <p className="font-sans text-2xl text-red-200">
     I have also YouTube Channel name as Mian Muhammad Bodla 
-     I am learning TypeScript, Python and Nextjs from PIAIC
     </p>
+    <div>
+      <Button href="https://www.youtube.com/@mianmuhammadbodla">YouTube Channel</Button>
+    </div>
     <Image src={vlogg} width={300} height={150} alt={""} className="border-4 border-emerald-400 rounded-3xl" ></Image>
-    <Button />
-        <div>Visit My All Accounts<Button />
-        </div>
-
+    <h1 className="font-bold text-3xl text-green-400 ">Stay Blessed</h1>
     </main>
   );
 }
