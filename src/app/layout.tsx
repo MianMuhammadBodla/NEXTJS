@@ -20,14 +20,14 @@ export default function RootLayout({
         <header className="bg-gray-700 px-2 py-3 flex gap-5">
         < Link href="/">Home</Link>
         <Link  href="/dashboard">Dashboard</Link >
-        <Link href="/group">group</Link>
-        <Link  href="/dashboard/analytics">analytics</Link >
-        <Link  href="/dashboard/setting">setting</Link >
-        <Link  href="/dashboard/setting/password">password</Link >
-        <Link  href="/blog">blog </Link >
-        <Link href="/contectus">contectus</Link>
-        <Link href="/services">services</Link>
-        <Link href="/aboutus">aboutus</Link>
+        <Link href="/group">Group</Link>
+        <Link  href="/dashboard/analytics">Analytics</Link >
+        <Link  href="/dashboard/setting">Setting</Link >
+        <Link  href="/dashboard/setting/password">Password</Link >
+        <Link  href="/blog">Blog </Link >
+        <Link href="/contectus">Contect Us</Link>
+        <Link href="/services">Services</Link>
+        <Link href="/aboutus">About Us</Link>
        
         </header>
         {children}
