@@ -6,14 +6,17 @@ import jbc from '../../public/im.jpg'
 import fds from '../../public/fdss.jpg'
 import sadd from '../../public/sad.jpg'
 import vlogg from '../../public/vlog.jpg'
+
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
-    <h1 className="font-bold text-6xl text-red-700">
+    <h1 className="font-bold text-6xl text-red-700 ">
       Welcome Dear
     </h1>
     
-    <p className="font-serif text-1xl text-green-300">
+    
+    <p className="font-serif text-1xl text-green-300 ">
 
     Greedings My Name is Muhammad
     </p>
@@ -26,10 +29,10 @@ export default function Home() {
 ></Image>
 
 
-    <p className="font-serif text-1xl text-blue-300">
+    <p className="font-serif text-2xl text-blue-300">
     My College id is 244401711
     </p>
-    <p className="font-serif text-1xl text-gray-400">
+    <p className="font-serif text-2xl text-gray-400">
     
     I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
     </p>
@@ -38,7 +41,7 @@ export default function Home() {
     <div >
       <Buttonn href="https://instagram.com/mian.muhammadbodla?igshid=MXVidnAwMnQ1dXhtZw==">Instagram Page </Buttonn>
     </div>
-    <h2 className="font-serif text-6xl text-green-700">
+    <h2 className="font-serif text-6xl text-green-800">
       Extra Activities
     </h2>
     <p className="font-bold text-2xl text-yellow-400">
