@@ -5,7 +5,7 @@ import ConditionalRendering from "@/components/ReactLearning/conditionalRenderin
 import ShoppingList from "@/components/ReactLearning/RenderingList";
 const ReactLearning = () => {
   const user = {
-    name: "Jahanzaib Tayab",
+    name: "Mian Muhammad Bodla",
     role: "Admin",
   };
   return (

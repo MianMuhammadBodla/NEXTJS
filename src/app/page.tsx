@@ -8,6 +8,11 @@ import sadd from '../../public/sad.jpg'
 import vlogg from '../../public/vlog.jpg'
 
 
+function Button2(){
+
+  return <button className='font-bold px-5 py-2 border-4   border-green-500 rounded-full text-yellow-300 bg-blue-900'>Button2</button>
+}
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
@@ -55,11 +60,15 @@ export default function Home() {
       <p className="font-sans text-2xl text-red-200">
     I have also YouTube Channel name as Mian Muhammad Bodla 
     </p>
-    <div>
+    <div className="flex gap-5 p-4">
       <Button href="https://www.youtube.com/@mianmuhammadbodla">YouTube Channel</Button>
+
+
+
+      <Button2></Button2> 
     </div>
     <Image src={vlogg} width={300} height={150} alt={""} className="border-4 border-emerald-400 rounded-3xl" ></Image>
     <h1 className="font-bold text-3xl text-green-400 ">Stay Blessed</h1>
     </main>
   );
-}
+} 

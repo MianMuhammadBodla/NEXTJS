@@ -21,7 +21,6 @@ export default function RootLayout({
         <header className="bg-gray-700 px-5 py-5 flex gap-5">
           <Link href="/">Home</Link>
           <Link href="/dashboard">Dashboard</Link>
-          <Link href="/dashboard/settings">Settings</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/contact-us">Contact Us</Link>
           <Link href="/aboutus">About Us</Link>
