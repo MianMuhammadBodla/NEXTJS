@@ -41,10 +41,12 @@ export default function Home() {
     
     I am Second year student of Fsc Pre Medical at Forman Christian College Lahore
     </p>
+    <a className="font-serif text-2xl rounded-md text-red-600"target="_blank" href="https://www.fccollege.edu.pk/"> College Website </a>
+    
     <Image src={sadd} width={300} height={200} alt={""} className="border-4 border-blue-500 rounded-3xl "></Image>
     
     <div >
-      <Buttonn href="https://instagram.com/mian.muhammadbodla?igshid=MXVidnAwMnQ1dXhtZw==">Instagram Page </Buttonn>
+      <Buttonn  href="https://instagram.com/mian.muhammadbodla?igshid=MXVidnAwMnQ1dXhtZw==">Instagram Page </Buttonn>
     </div>
     <h2 className="font-serif text-6xl text-green-800">
       Extra Activities
@@ -65,7 +67,7 @@ export default function Home() {
 
 
 
-      <Button2></Button2> 
+      <Button2  ></Button2> 
     </div>
     <Image src={vlogg} width={300} height={150} alt={""} className="border-4 border-emerald-400 rounded-3xl" ></Image>
     <h1 className="font-bold text-3xl text-green-400 ">Stay Blessed</h1>
