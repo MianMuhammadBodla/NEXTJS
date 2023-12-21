@@ -14,7 +14,7 @@ export default function Dashboard() {
     <Link href="/dashboard/setting">Setting</Link>
 
     </header>
-            This is dashboard Route 
+            This is dashboard Route    
     
 
     <Image src={sady} width={300} height={200} alt={""} className="border-4 border-blue-600 rounded-full"></Image>

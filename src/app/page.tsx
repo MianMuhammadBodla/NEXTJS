@@ -6,7 +6,7 @@ import jbc from '../../public/im.jpg'
 import fds from '../../public/fdss.jpg'
 import sadd from '../../public/sad.jpg'
 import vlogg from '../../public/vlog.jpg'
-
+import Link from "next/link";
 
 function Button2(){
 

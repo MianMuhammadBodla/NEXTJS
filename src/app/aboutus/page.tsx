@@ -6,8 +6,7 @@ import jbc from '../../../public/im.jpg'
 import fds from '../../../public/fdss.jpg'
 import sadd from '../../../public/sad.jpg'
 import vlogg from '../../../public/vlog.jpg'
-import Link from "next/link";
-export default function aboutus () {
+import Link from "next/link";  export default function aboutus () {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 gap-5">
     <h1 className="font-bold text-6xl text-yellow-500">

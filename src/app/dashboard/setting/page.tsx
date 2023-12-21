@@ -7,6 +7,7 @@ export default function setting () {return( <main>
 
 <div className="bg-gray-700 px-5 py-5 flex gap-5">
     <Link href="/dashboard/setting/password">Password</Link>
+    <Link href="/dashboard/setting/profile">Profile</Link>
 </div>
 </main>
 
