@@ -1,11 +1,11 @@
 import Button from "@/components/Buttons"
 import Buttonn from "@/components/Buttonnn"
 import Image from "next/image";
-import profile from '../../public/IMG.jpg'
-import jbc from '../../public/im.jpg'
-import fds from '../../public/fdss.jpg'
-import sadd from '../../public/sad.jpg'
-import vlogg from '../../public/vlog.jpg'
+import profile from '@/assets/images/IMG.jpg'
+import jbc from '@/assets/images/im.jpg'
+import fds from '@/assets/images/fdss.jpg'
+import sadd from '@/assets/images/sad.jpg'
+import vlogg from '@/assets/images/vlog.jpg'
 import Link from "next/link";
 
 function Button2(){

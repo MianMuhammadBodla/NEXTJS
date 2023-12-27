@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import password from "./setting/password/page";
 import Image from "next/image";
-import sady from '../../../public/sad.jpg'
+import sadd from '@/assets/images/sad.jpg'
 
 
 export default function Dashboard() {
@@ -17,7 +17,7 @@ export default function Dashboard() {
             This is dashboard Route    
     
 
-    <Image src={sady} width={300} height={200} alt={""} className="border-4 border-blue-600 rounded-full"></Image>
+    <Image src={sadd} width={300} height={200} alt={""} className="border-4 border-blue-600 rounded-full"></Image>
   
     </main>
     );
