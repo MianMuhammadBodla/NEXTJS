@@ -2,7 +2,7 @@
 import Mybutton from "@/components/Mybutton";
 import AboutPage from "@/components/markupWithJsx";
 import Dispalydata from "@/components/dispalydata";
-import ConditionalRendering from "@/components/Conditionalrendering";
+import ConditionalRendering from "@/components/ConditionalRendering";
 function Mybutton2() {
     return (
       <button className=" p-3 bg-slate-300 rounded-lg text-cyan-500">I'm  button2</button>
@@ -34,7 +34,9 @@ return (<div className="flex flex-col gap-5 text-xs"> REACT LEARNING
 <div className="texxt-sm font-semibold">
 
  Conditional Rendering 
+
   <ConditionalRendering />
+   
 </div>
 
 
