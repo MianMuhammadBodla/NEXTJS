@@ -2,7 +2,7 @@ import React from 'react'
 
 const Renderinglists = () => {
   return (
-    <div>Renderinglists</div>
+    <div>Rendering   lists</div>
   )
 }
 
