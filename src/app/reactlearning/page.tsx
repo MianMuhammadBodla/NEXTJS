@@ -5,7 +5,7 @@ import Dispalydata from "@/components/dispalydata";
 import ConditionalRendering from "@/components/ConditionalRendering";
 function Mybutton2() {
     return (
-      <button className=" p-3 bg-slate-300 rounded-lg text-cyan-500">I'm  button2</button>
+      <button className=" p-3 bg-slate-300 rounded-lg text-cyan-500">{"I'm  button2"}</button>
     )};
 
 const reactlearning = () => {
