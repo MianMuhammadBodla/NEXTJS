@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Renderinglists = () => {
+const Renderinglist = () => {
   return (
-    <div>Rendering   lists</div>
+    <div>Rendering lists</div>
   )
 }
 
-export default Renderinglists
+export default Renderinglist;

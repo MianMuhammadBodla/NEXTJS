@@ -21,4 +21,4 @@ const ConditionalRendering = () => {
     );
 }
 
-export default ConditionalRendering
+export default ConditionalRendering;
