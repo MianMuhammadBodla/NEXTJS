@@ -6,9 +6,12 @@ import sadd from '@/assets/images/sad.jpg'
 
 
 export default function Dashboard() {
+    const user ={name:"Muhammad"}
     return(
-        
+       
          <main className="font-bold text-6xl text-yellow-600 bg-green-100">
+
+            
               <header className="bg-gray-700 px-3 py-3 flex gap-2 text-white">
     <Link href="/dashboard/analytics">Analytics</Link>
     <Link href="/dashboard/setting">Setting</Link>
